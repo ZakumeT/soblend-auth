@@ -1,7 +1,7 @@
 {
-  "name": "user-auth-api",
+  "name": "soblend-auth-api",
   "version": "1.0.0",
-  "description": "API de registro e inicio de sesión con Cloudflare Workers, D1 y KV",
+  "description": "API para registro e inicio de sesión con Cloudflare Workers, D1 y KV",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
@@ -9,11 +9,10 @@
     "deploy": "wrangler deploy",
     "migrate": "wrangler d1 migrations apply zakumet"
   },
-  "author": "Soblend Team",
+  "author": "ZakumeT",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "worktop": "^0.8.1"
+    "worktop": "^0.8.0"
   }
 }
-  
