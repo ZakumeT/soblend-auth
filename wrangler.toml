@@ -1,0 +1,14 @@
+name = "soblend-auth"
+main = "src/index.js"
+compatibility_date = "2025-07-08"
+
+[[d1_databases]]
+binding = "DB"
+database_id = "462018ba-419b-4e98-876f-c167a44d3142"
+database_name = "zakumet"
+
+[[kv_namespaces]]
+binding = "SESSIONS"
+id = "6f3d5cc6d136411e8c5f185589fd31b6"
+preview_id = "6f3d5cc6d136411e8c5f185589fd31b6"
+kv_namespace = "ZakumeT"
